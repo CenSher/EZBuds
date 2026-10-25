@@ -1,7 +1,6 @@
 # EZBuds
 
 **在 Windows 上控制华为 / 荣耀蓝牙耳机的开源托盘工具。**
-A free, open-source Windows tray utility for controlling HUAWEI / HONOR Bluetooth earphones over classic Bluetooth SPP.
 
 不依赖厂商官方 PC 应用，不需要管理员权限：通过耳机侧的 SPP 控制通道（RFCOMM）直接读取电量、切换降噪、管理耳机侧的已连接设备。控制协议来自真机抓包研究（见 [PROTOCOL.md](PROTOCOL.md)），只使用已配对设备的普通用户权限。
 
