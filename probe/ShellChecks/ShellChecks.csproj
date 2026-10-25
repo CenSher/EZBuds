@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><NuGetAudit>false</NuGetAudit></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../FreeClipControl.Shell/MenuCachePolicy.cs" Link="MenuCachePolicy.cs" />
+    <Compile Include="../../FreeClipControl.Shell/ShellBehaviorPolicy.cs" Link="ShellBehaviorPolicy.cs" />
+    <Compile Include="../../FreeClipControl.Shell/TrayClickIntent.cs" Link="TrayClickIntent.cs" />
+  </ItemGroup>
+</Project>

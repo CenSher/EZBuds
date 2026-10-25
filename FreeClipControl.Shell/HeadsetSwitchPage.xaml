@@ -1,0 +1,36 @@
+<Page x:Class="FreeClipControl.Shell.HeadsetSwitchPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:FreeClipControl.Shell" Background="Transparent">
+ <Grid>
+  <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="*" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+  <Grid Margin="20,20,24,16" ColumnSpacing="8">
+   <Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions>
+   <Button Click="OnBack" Style="{StaticResource SubtleButtonStyle}" AutomationProperties.Name="返回耳机菜单"><FontIcon Glyph="&#xE72B;" FontSize="16" /></Button>
+   <TextBlock Grid.Column="1" Text="切换耳机" FontSize="20" FontWeight="SemiBold" VerticalAlignment="Center" />
+  </Grid>
+  <Grid Grid.Row="1" Margin="16,0,16,16">
+   <ListView x:Name="HeadsetList" IsItemClickEnabled="True" SelectionMode="None" ItemClick="OnHeadsetClick"
+             Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Stretch">
+    <ListView.ItemContainerStyle><Style TargetType="ListViewItem"><Setter Property="HorizontalContentAlignment" Value="Stretch" /><Setter Property="Padding" Value="12,14" /><Setter Property="Margin" Value="0,2" /></Style></ListView.ItemContainerStyle>
+    <ListView.ItemTemplate><DataTemplate x:DataType="local:BoundHeadset">
+     <Grid ColumnSpacing="12">
+      <Grid.ColumnDefinitions><ColumnDefinition Width="32" /><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+      <FontIcon Glyph="&#xE7F6;" FontSize="24" VerticalAlignment="Center" />
+      <StackPanel Grid.Column="1" Spacing="4">
+       <TextBlock Text="{x:Bind Name}" FontSize="14" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" />
+       <TextBlock Text="{x:Bind Detail}" FontSize="12" TextWrapping="Wrap" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+      </StackPanel>
+      <FontIcon Grid.Column="2" Glyph="&#xE76C;" FontSize="12" VerticalAlignment="Center" />
+     </Grid>
+    </DataTemplate></ListView.ItemTemplate>
+   </ListView>
+   <TextBlock x:Name="EmptyMessage" Text="还没有配置耳机。请打开软件设置添加蓝牙设备和型号。" TextWrapping="Wrap" Margin="12,12" Foreground="{ThemeResource TextFillColorSecondaryBrush}" Visibility="Collapsed" />
+  </Grid>
+  <Border Grid.Row="2" Padding="16,12" BorderBrush="{ThemeResource DividerStrokeColorDefaultBrush}" BorderThickness="0,1,0,0">
+   <StackPanel Spacing="8"><TextBlock x:Name="SwitchError" TextWrapping="Wrap" Foreground="{ThemeResource TextFillColorSecondaryBrush}" Visibility="Collapsed" />
+    <Button Content="配置耳机" Click="OnSettings" Style="{StaticResource SubtleButtonStyle}" HorizontalAlignment="Left" />
+   </StackPanel>
+  </Border>
+ </Grid>
+</Page>

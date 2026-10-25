@@ -1,0 +1,527 @@
+{
+  "Created": "2026-10-22T16:02:53.3994683+08:00",
+  "Baseline": "D:\\Project\\EZB2C\\baselines\\FreeClip2-20261022-154252",
+  "Removed": [
+    {
+      "Path": "FreeClipControl",
+      "Bytes": 46197
+    },
+    {
+      "Path": "FreeClipControl.WinUI",
+      "Bytes": 239391905
+    },
+    {
+      "Path": "dist",
+      "Bytes": 48913
+    },
+    {
+      "Path": "dist-winui3",
+      "Bytes": 234669432
+    },
+    {
+      "Path": "build-winui3.ps1",
+      "Bytes": 2161
+    },
+    {
+      "Path": "FreeClipControl-prototype.zip",
+      "Bytes": 36901
+    },
+    {
+      "Path": "FreeClipControl-WinUI3-source.zip",
+      "Bytes": 26940
+    },
+    {
+      "Path": "FreeClipControl-Shell-source.zip",
+      "Bytes": 57656
+    },
+    {
+      "Path": "dist-shell",
+      "Bytes": 234942831
+    },
+    {
+      "Path": ".scratch\\adjusted-text-source-20261021-191134",
+      "Bytes": 73489
+    },
+    {
+      "Path": ".scratch\\before-acrylic-activation-fix-20261022-100719",
+      "Bytes": 27458
+    },
+    {
+      "Path": ".scratch\\before-acrylic-activation-fix-release-20261022-101012",
+      "Bytes": 234799615
+    },
+    {
+      "Path": ".scratch\\before-acrylic-base-20261022-101504",
+      "Bytes": 15092
+    },
+    {
+      "Path": ".scratch\\before-acrylic-base-release-20261022-101640",
+      "Bytes": 234812777
+    },
+    {
+      "Path": ".scratch\\before-acrylic-panel-20261022-092234",
+      "Bytes": 27362
+    },
+    {
+      "Path": ".scratch\\before-acrylic-panel-release-20261022-092439",
+      "Bytes": 234798075
+    },
+    {
+      "Path": ".scratch\\before-acrylic-transparency-fix-20261022-092807",
+      "Bytes": 27706
+    },
+    {
+      "Path": ".scratch\\before-acrylic-transparency-fix-release-20261022-093027",
+      "Bytes": 234795642
+    },
+    {
+      "Path": ".scratch\\before-adjusted-text-release-20261021-191100",
+      "Bytes": 234672857
+    },
+    {
+      "Path": ".scratch\\before-connection-lock-ui-20261022",
+      "Bytes": 2889501
+    },
+    {
+      "Path": ".scratch\\before-disconnected-page-20261022-124334",
+      "Bytes": 3027896
+    },
+    {
+      "Path": ".scratch\\before-divider-scale-20261021-181217",
+      "Bytes": 23511
+    },
+    {
+      "Path": ".scratch\\before-divider-scale-release-20261021-181358",
+      "Bytes": 234681897
+    },
+    {
+      "Path": ".scratch\\before-edge-slide-release-20261021-180440",
+      "Bytes": 234672848
+    },
+    {
+      "Path": ".scratch\\before-footer-weight-20261021-185622",
+      "Bytes": 32587
+    },
+    {
+      "Path": ".scratch\\before-footer-weight-release-20261021-190045",
+      "Bytes": 234678566
+    },
+    {
+      "Path": ".scratch\\before-icons-menu-release-20261021-201418",
+      "Bytes": 234727265
+    },
+    {
+      "Path": ".scratch\\before-icons-tray-menu-20261021-195945",
+      "Bytes": 106149
+    },
+    {
+      "Path": ".scratch\\before-lifecycle-fix-20261020-231559",
+      "Bytes": 27264
+    },
+    {
+      "Path": ".scratch\\before-light-acrylic-brightness-20261022-102352",
+      "Bytes": 22813
+    },
+    {
+      "Path": ".scratch\\before-light-acrylic-brightness-release-20261022-102553",
+      "Bytes": 234805618
+    },
+    {
+      "Path": ".scratch\\before-list-font-20261021-191601",
+      "Bytes": 13100
+    },
+    {
+      "Path": ".scratch\\before-local-refresh-20261020-230705",
+      "Bytes": 1871432
+    },
+    {
+      "Path": ".scratch\\before-lock-audio-sequencing-20261022",
+      "Bytes": 2996823
+    },
+    {
+      "Path": ".scratch\\before-lock-confirmation-flyout-20261022",
+      "Bytes": 20018
+    },
+    {
+      "Path": ".scratch\\before-lock-hit-area-fix-20261022",
+      "Bytes": 2974943
+    },
+    {
+      "Path": ".scratch\\before-lock-state3-and-dismiss-fix-20261022",
+      "Bytes": 2980748
+    },
+    {
+      "Path": ".scratch\\before-mica-list-20261020-234632",
+      "Bytes": 46978
+    },
+    {
+      "Path": ".scratch\\before-mica-release-20261021-115853",
+      "Bytes": 218374977
+    },
+    {
+      "Path": ".scratch\\before-native-caption-paint-fix-20261021-230340",
+      "Bytes": 10001
+    },
+    {
+      "Path": ".scratch\\before-native-caption-paint-fix-release-20261021-230444",
+      "Bytes": 234798551
+    },
+    {
+      "Path": ".scratch\\before-native-text-20261021-190747",
+      "Bytes": 25279
+    },
+    {
+      "Path": ".scratch\\before-neutral-device-icons-20261021-230945",
+      "Bytes": 14145
+    },
+    {
+      "Path": ".scratch\\before-neutral-device-icons-release-20261021-231032",
+      "Bytes": 234797526
+    },
+    {
+      "Path": ".scratch\\before-panel-motion-20261020-233136",
+      "Bytes": 25552
+    },
+    {
+      "Path": ".scratch\\before-passive-refresh-cursor-20261021-232057",
+      "Bytes": 75767
+    },
+    {
+      "Path": ".scratch\\before-passive-refresh-cursor-release-20261021-232330",
+      "Bytes": 234797011
+    },
+    {
+      "Path": ".scratch\\before-real-bluetooth-20261021-192700",
+      "Bytes": 69050
+    },
+    {
+      "Path": ".scratch\\before-real-bluetooth-release-20261021-194120",
+      "Bytes": 234677216
+    },
+    {
+      "Path": ".scratch\\before-refresh-triggers-20261021-231650",
+      "Bytes": 33408
+    },
+    {
+      "Path": ".scratch\\before-refresh-triggers-release-20261021-231824",
+      "Bytes": 234799517
+    },
+    {
+      "Path": ".scratch\\before-remove-panel-context-menu-20261021-232725",
+      "Bytes": 36923
+    },
+    {
+      "Path": ".scratch\\before-remove-panel-context-menu-release-20261021-232827",
+      "Bytes": 234803917
+    },
+    {
+      "Path": ".scratch\\before-settings-tray-20261022-152116",
+      "Bytes": 241414028
+    },
+    {
+      "Path": ".scratch\\before-shadow-release-20261021-154736",
+      "Bytes": 234668910
+    },
+    {
+      "Path": ".scratch\\before-shell-rewrite-20261021-164420",
+      "Bytes": 3490
+    },
+    {
+      "Path": ".scratch\\before-silent-refresh-20261021-234236",
+      "Bytes": 36826
+    },
+    {
+      "Path": ".scratch\\before-silent-refresh-release-20261021-234340",
+      "Bytes": 234795834
+    },
+    {
+      "Path": ".scratch\\before-startup-icon-fix-20261021-202126",
+      "Bytes": 32737
+    },
+    {
+      "Path": ".scratch\\before-startup-icon-fix-release-20261021-202336",
+      "Bytes": 234794820
+    },
+    {
+      "Path": ".scratch\\before-titlebar-collapse-20261021-225628",
+      "Bytes": 19300
+    },
+    {
+      "Path": ".scratch\\before-titlebar-collapse-release-20261021-225733",
+      "Bytes": 234804261
+    },
+    {
+      "Path": ".scratch\\before-tray-only-startup-20261022-101916",
+      "Bytes": 28193
+    },
+    {
+      "Path": ".scratch\\before-tray-only-startup-release-20261022-102032",
+      "Bytes": 234823430
+    },
+    {
+      "Path": ".scratch\\before-tray-slide-20261021-175821",
+      "Bytes": 28969
+    },
+    {
+      "Path": ".scratch\\before-visible-shadow-20261021-121823",
+      "Bytes": 31401
+    },
+    {
+      "Path": ".scratch\\connection-lock-audiofix-publish",
+      "Bytes": 234763017
+    },
+    {
+      "Path": ".scratch\\connection-lock-flyout-publish",
+      "Bytes": 234756733
+    },
+    {
+      "Path": ".scratch\\connection-lock-hitfix-publish",
+      "Bytes": 234756749
+    },
+    {
+      "Path": ".scratch\\connection-lock-publish",
+      "Bytes": 234755481
+    },
+    {
+      "Path": ".scratch\\connection-lock-statefix-publish",
+      "Bytes": 234757353
+    },
+    {
+      "Path": ".scratch\\disconnected-page-publish",
+      "Bytes": 234771192
+    },
+    {
+      "Path": ".scratch\\divider-scale-source-20261021-181408",
+      "Bytes": 72101
+    },
+    {
+      "Path": ".scratch\\edge-slide-source-20261021-180451",
+      "Bytes": 71024
+    },
+    {
+      "Path": ".scratch\\footer-weight-source-20261021-190055",
+      "Bytes": 73628
+    },
+    {
+      "Path": ".scratch\\icons-menu-source-20261021-201526",
+      "Bytes": 138752
+    },
+    {
+      "Path": ".scratch\\lifecycle-check",
+      "Bytes": 218353031
+    },
+    {
+      "Path": ".scratch\\list-font-source-20261021-191647",
+      "Bytes": 73504
+    },
+    {
+      "Path": ".scratch\\mica-clean-check",
+      "Bytes": 232825453
+    },
+    {
+      "Path": ".scratch\\mica-final-check",
+      "Bytes": 234654334
+    },
+    {
+      "Path": ".scratch\\mica-helper-check",
+      "Bytes": 234654014
+    },
+    {
+      "Path": ".scratch\\mica-list-check",
+      "Bytes": 218369883
+    },
+    {
+      "Path": ".scratch\\mica-list-check-v2",
+      "Bytes": 232827000
+    },
+    {
+      "Path": ".scratch\\mica-ready-check",
+      "Bytes": 234653502
+    },
+    {
+      "Path": ".scratch\\mica-source-export",
+      "Bytes": 67288
+    },
+    {
+      "Path": ".scratch\\mica-visual-check",
+      "Bytes": 234653514
+    },
+    {
+      "Path": ".scratch\\panel-motion-check",
+      "Bytes": 218356550
+    },
+    {
+      "Path": ".scratch\\real-bluetooth-source-20261021-194221",
+      "Bytes": 118099
+    },
+    {
+      "Path": ".scratch\\real-bluetooth-source-final-20261021-194423",
+      "Bytes": 118185
+    },
+    {
+      "Path": ".scratch\\sdk2-clean-20261021-112747-bin",
+      "Bytes": 229813765
+    },
+    {
+      "Path": ".scratch\\sdk2-clean-20261021-112747-obj",
+      "Bytes": 109072351
+    },
+    {
+      "Path": ".scratch\\shadow-host-compatible",
+      "Bytes": 234660848
+    },
+    {
+      "Path": ".scratch\\shadow-layer-check",
+      "Bytes": 234661248
+    },
+    {
+      "Path": ".scratch\\shadow-release-ready",
+      "Bytes": 234661744
+    },
+    {
+      "Path": ".scratch\\shadow-source-20261021-153650",
+      "Bytes": 72439
+    },
+    {
+      "Path": ".scratch\\shadow-static-preview",
+      "Bytes": 234660843
+    },
+    {
+      "Path": ".scratch\\shell-divider-scale",
+      "Bytes": 234668062
+    },
+    {
+      "Path": ".scratch\\shell-edge-slide",
+      "Bytes": 234667385
+    },
+    {
+      "Path": ".scratch\\shell-edge-slide-v2",
+      "Bytes": 234667381
+    },
+    {
+      "Path": ".scratch\\shell-footer-weight",
+      "Bytes": 234670239
+    },
+    {
+      "Path": ".scratch\\shell-icons-menu",
+      "Bytes": 234739056
+    },
+    {
+      "Path": ".scratch\\shell-icons-menu-final",
+      "Bytes": 234739342
+    },
+    {
+      "Path": ".scratch\\shell-native-text",
+      "Bytes": 234669901
+    },
+    {
+      "Path": ".scratch\\shell-real-data-build",
+      "Bytes": 234708909
+    },
+    {
+      "Path": ".scratch\\shell-real-data-final",
+      "Bytes": 234710589
+    },
+    {
+      "Path": ".scratch\\shell-source-20261021-165209",
+      "Bytes": 65484
+    },
+    {
+      "Path": ".scratch\\shell-v1",
+      "Bytes": 234656316
+    },
+    {
+      "Path": ".scratch\\shell-v2",
+      "Bytes": 234656781
+    },
+    {
+      "Path": ".scratch\\shell-v3",
+      "Bytes": 234661185
+    },
+    {
+      "Path": ".scratch\\tray-startup-fix-backup",
+      "Bytes": 2960724
+    },
+    {
+      "Path": ".scratch\\tray-startup-fix-publish",
+      "Bytes": 234763013
+    },
+    {
+      "Path": ".scratch\\visible-shadow-check",
+      "Bytes": 234658628
+    },
+    {
+      "Path": ".scratch\\visible-shadow-final",
+      "Bytes": 234660810
+    },
+    {
+      "Path": ".scratch\\visible-shadow-reviewed",
+      "Bytes": 234658696
+    },
+    {
+      "Path": ".scratch\\winui-diagnostic",
+      "Bytes": 216980643
+    },
+    {
+      "Path": ".scratch\\winui-fixed",
+      "Bytes": 218343899
+    },
+    {
+      "Path": ".scratch\\winui-source-fixed",
+      "Bytes": 52945
+    },
+    {
+      "Path": ".scratch\\winui-tray-fixed",
+      "Bytes": 218347607
+    },
+    {
+      "Path": ".scratch\\before-adjusted-text-source-20261021-191134.zip",
+      "Bytes": 29370
+    },
+    {
+      "Path": ".scratch\\before-divider-scale-source-20261021-181408.zip",
+      "Bytes": 28426
+    },
+    {
+      "Path": ".scratch\\before-edge-slide-source-20261021-180451.zip",
+      "Bytes": 26507
+    },
+    {
+      "Path": ".scratch\\before-footer-weight-source-20261021-190055.zip",
+      "Bytes": 28760
+    },
+    {
+      "Path": ".scratch\\before-icons-menu-source-20261021-201526.zip",
+      "Bytes": 45155
+    },
+    {
+      "Path": ".scratch\\before-list-font-source-20261021-191647.zip",
+      "Bytes": 29375
+    },
+    {
+      "Path": ".scratch\\before-mica-source-20261021-120003.zip",
+      "Bytes": 21419
+    },
+    {
+      "Path": ".scratch\\before-real-bluetooth-source-20261021-194221.zip",
+      "Bytes": 29379
+    },
+    {
+      "Path": ".scratch\\before-shadow-source-20261021-153828.zip",
+      "Bytes": 25267
+    },
+    {
+      "Path": ".scratch\\FreeClipControl-shadow-source-ready.zip",
+      "Bytes": 26940
+    },
+    {
+      "Path": "Qt",
+      "Bytes": 0
+    },
+    {
+      "Path": "reference",
+      "Bytes": 0
+    }
+  ],
+  "Bytes": 15274935823.0
+}

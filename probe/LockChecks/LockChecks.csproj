@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../FreeClipControl.Shell/NoiseControlProtocol.cs" Link="NoiseControlProtocol.cs" />
+    <Compile Include="../../FreeClipControl.Shell/AbstractCopy.cs" Link="AbstractCopy.cs" />
+    <Compile Include="../../FreeClipControl.Shell/HeadsetProfiles.cs" Link="HeadsetProfiles.cs" />
+    <Compile Include="../../FreeClipControl.Shell/HeadsetCatalog.cs" Link="HeadsetCatalog.cs" />
+    <Compile Include="../../FreeClipControl.Shell/Models.cs" Link="Models.cs" />
+    <Compile Include="../../FreeClipControl.Shell/HuaweiProtocol.cs" Link="HuaweiProtocol.cs" />
+    <Compile Include="../../FreeClipControl.Shell/ConnectionLockProtocol.cs" Link="ConnectionLockProtocol.cs" />
+    <Compile Include="../../FreeClipControl.Shell/HeadsetAudioPolicy.cs" Link="HeadsetAudioPolicy.cs" />
+    <Compile Include="../../FreeClipControl.Shell/HuaweiBluetoothDataSource.cs" Link="HuaweiBluetoothDataSource.cs" />
+  </ItemGroup>
+</Project>

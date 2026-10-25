@@ -1,0 +1,28 @@
+# 构建输出与发布快照（构建用 build-shell.ps1，产物不入库）
+dist-*/
+releases/
+baselines/
+
+# 本地工具与诊断产物
+.scratch/
+.codex/
+.codex-remote-attachments/
+.codegraph/
+shell-diagnostic.log
+startup-error.log
+
+# .NET / Visual Studio
+bin/
+obj/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.user
+*.suo
+.vs/
+
+# 系统
+Thumbs.db
+Desktop.ini

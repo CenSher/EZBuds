@@ -1,0 +1,95 @@
+{
+  "checkedAt": "2026-10-22",
+  "scope": "Model names, RFCOMM channels, battery shape and dual-connect handler availability. Extra features have not been ported.",
+  "sources": [
+    {
+      "path": "openfreebuds/driver/constants.py",
+      "sha": "c4e3c9071e3088b9c90f994d2b325036337c8b7a"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/__init__.py",
+      "sha": "06a76e9cf586193c14ad69dd483fd13a1b825907",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/__init__.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/buds_3.py",
+      "sha": "cbdadbe2a0db8c12b0057820faa499c28d1d0690",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/buds_3.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/buds_4i.py",
+      "sha": "ec6e7a2262ca7c656f129b1ba81b1121c1b23e69",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/buds_4i.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/buds_5i.py",
+      "sha": "cf9876202533bb059dcbf89e71f73174d7660528",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/buds_5i.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/buds_6i.py",
+      "sha": "a6cf4152e1843e1fddefa9cdbe7a736e64a180aa",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/buds_6i.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/buds_pro.py",
+      "sha": "ccc6f571380d43a9546c24951ecdff14b9cd8e09",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/buds_pro.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/buds_pro_2.py",
+      "sha": "d3b0e0860518c40a85860f0ca1534f607918983d",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/buds_pro_2.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/buds_pro_3.py",
+      "sha": "fbbe44086c40d6422052d8b5ec369bba5c446b7f",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/buds_pro_3.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/buds_pro_5.py",
+      "sha": "999e34cf2cb763b36a969bdfc506a70c4b5cc8b4",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/buds_pro_5.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/buds_se.py",
+      "sha": "eaae2fde292baee52f4ea88dfcfe7b563447c3fd",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/buds_se.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/buds_se_2.py",
+      "sha": "428461dd38a9d5f9f522b43e0c879804b03c7c5b",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/buds_se_2.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/buds_se_4.py",
+      "sha": "67cc8b3b80676a875881ef1fefecf99634c4f062",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/buds_se_4.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/buds_studio.py",
+      "sha": "296592ef4d9413b0d34328898030b8a8c4fab13b",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/buds_studio.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/free_clip_2.py",
+      "sha": "3c3b762ea3a3d689cde32fe21f6ab246fa2db89a",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/free_clip_2.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/lace_pro.py",
+      "sha": "416c09d0d7a41289c87cc0470695385d0c06c261",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/lace_pro.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/driver/per_model/lace_pro_2.py",
+      "sha": "6f88bfc37f8276967a236c3b3de59bc509fcc5b1",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/driver/per_model/lace_pro_2.py"
+    },
+    {
+      "path": "openfreebuds/driver/huawei/handler/battery.py",
+      "sha": "e023c2f3ba262a5c2e696e564738a5a982f36c53",
+      "url": "https://github.com/melianmiko/OpenFreebuds/blob/main/openfreebuds/driver/huawei/handler/battery.py"
+    }
+  ]
+}

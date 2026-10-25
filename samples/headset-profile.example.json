@@ -1,0 +1,15 @@
+{
+  "formatVersion": 1,
+  "profiles": [
+    {
+      "id": "custom:freeclip2-example",
+      "name": "HUAWEI FreeClip 2（自定义示例）",
+      "channel": 1,
+      "splitBattery": true,
+      "deviceManagement": true,
+      "connectionLock": false,
+      "connectDelayMilliseconds": 0,
+      "keywords": ["FreeClip 2 示例"]
+    }
+  ]
+}

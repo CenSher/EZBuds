@@ -1,0 +1,12 @@
+{
+  "exclude": [
+    "baselines/",
+    "releases/",
+    "dist-current/",
+    "dist-multimodel/",
+    "dist-device-config/",
+    ".codex/",
+    ".codex-remote-attachments/",
+    ".scratch/"
+  ]
+}
