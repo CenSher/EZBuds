@@ -391,8 +391,19 @@
                             <StackPanel Spacing="8">
                                 <TextBlock Text="EZBuds" Style="{ThemeResource SubtitleTextBlockStyle}" />
                                 <TextBlock x:Name="AboutVersion" Style="{StaticResource CardDescription}" />
+                                <TextBlock Text="By Karthy" Style="{StaticResource CardDescription}" />
+                                <TextBlock Style="{StaticResource CardDescription}" TextWrapping="Wrap">
+                                    <Run Text="GitHub 项目：" />
+                                    <Hyperlink Click="OnOpenGitHub">github.com/CenSher/EZBuds</Hyperlink>
+                                </TextBlock>
+                                <TextBlock Style="{StaticResource CardDescription}" TextWrapping="Wrap">
+                                    <Run Text="各型号的蓝牙通道、电量与噪声控制等适配信息参考并整理自开源项目 " />
+                                    <Hyperlink Click="OnOpenOpenFreebuds">OpenFreebuds（GPL-3.0）</Hyperlink>
+                                    <Run Text="，感谢原作者 melianmiko。本软件同样以 GPL-3.0 协议开源；型号支持范围与限制见项目文档。" />
+                                </TextBlock>
                             </StackPanel>
                         </Border>
+                        <InfoBar x:Name="AboutMessage" IsOpen="False" IsClosable="True" Severity="Error" />
                     </StackPanel>
                 </StackPanel>
                 </Grid>

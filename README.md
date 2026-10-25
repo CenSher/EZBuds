@@ -1,6 +1,6 @@
 # EZBuds
 
-软件正式名称为 **EZBuds**。最新入口为根目录 `启动EZBuds.cmd`，本次发布到 `releases/delete-confirm-20261025/EZBuds.exe`；旧的 `启动耳机控制中心.cmd` 作为兼容入口指向同一版本。关于页仅显示名称与版本。默认启动只驻留托盘；请先退出旧进程。此次只编译和检查源码约定，未启动软件或运行测试。
+软件正式名称为 **EZBuds**。最新入口为根目录 `启动EZBuds.cmd`，本次发布到 `releases/delete-confirm-20261025/EZBuds.exe`；旧的 `启动耳机控制中心.cmd` 作为兼容入口指向同一版本。关于页显示名称、版本、作者（By Karthy）、GitHub 项目链接及 OpenFreebuds（GPL-3.0）致谢。默认启动只驻留托盘；请先退出旧进程。此次只编译和检查源码约定，未启动软件或运行测试。
 
 当前版本为设备配置版：在设置 → 耳机配置中选择蓝牙设备和型号，自动推荐关键词匹配到的型号，并按地址保存。蓝牙和设备页通过当前耳机大卡片展开管理已配置列表；主菜单名称旁的箭头进入设备切换列表。内置 21 个型号配置，可导入自定义 JSON 或从 OpenFreebuds 更新。说明见 [型号支持](docs/MODEL_SUPPORT.md)、[自定义配置](docs/CUSTOM_PROFILES.md)和[手动验收](docs/DEVICE_CONFIG_ACCEPTANCE.md)。
 

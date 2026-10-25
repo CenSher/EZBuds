@@ -10,6 +10,7 @@ using Microsoft.UI.Windowing;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Documents;
 using Microsoft.UI.Xaml.Hosting;
 using Microsoft.UI.Composition;
 using Windows.Graphics;
@@ -349,6 +350,27 @@ internal sealed partial class SettingsWindow : Window
             if (closed) return;
             StartupMessage.Message = error.Message;
             StartupMessage.IsOpen = true;
+        }
+    }
+    private async void OnOpenGitHub(Hyperlink sender, HyperlinkClickEventArgs args)
+        => await OpenExternalAsync(new Uri("https://github.com/CenSher/EZBuds"));
+    private async void OnOpenOpenFreebuds(Hyperlink sender, HyperlinkClickEventArgs args)
+        => await OpenExternalAsync(new Uri("https://github.com/melianmiko/OpenFreebuds"));
+    private async Task OpenExternalAsync(Uri uri)
+    {
+        try
+        {
+            if (!await Windows.System.Launcher.LaunchUriAsync(uri) && !closed)
+            {
+                AboutMessage.Message = "无法打开浏览器，请手动访问 " + uri;
+                AboutMessage.IsOpen = true;
+            }
+        }
+        catch (Exception error)
+        {
+            if (closed) return;
+            AboutMessage.Message = "打开链接失败：" + error.Message;
+            AboutMessage.IsOpen = true;
         }
     }
     private void OnThemeChanged(object sender, SelectionChangedEventArgs args)
