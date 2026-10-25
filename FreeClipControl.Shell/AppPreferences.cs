@@ -8,7 +8,7 @@ namespace FreeClipControl.Shell;
 internal sealed record PreferenceData
 {
     public string Theme { get; init; } = "Default";
-    public bool AbstractCopyEnabled { get; init; } = true;
+    public bool AbstractCopyEnabled { get; init; } = false;
     public bool TrayBatteryEnabled { get; init; } = true;
     public string[] CustomCopy { get; init; } = Array.Empty<string>();
     public string[] HonorCustomCopy { get; init; } = Array.Empty<string>();
